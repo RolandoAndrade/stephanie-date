@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  object-fit: cover;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.accept {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.accept:hover {
+    background-color: #00b74a;
+}
+
+.decline {
+    background-color: #ff1744;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.decline:hover {
+    background-color: #d50000;
+}
